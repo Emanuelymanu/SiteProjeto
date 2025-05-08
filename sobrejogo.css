@@ -1,6 +1,7 @@
 body{
     font-family: Roboto, Arial;
     margin: 0;
+    background-color: #fff;
 }
 header{
     width: 100%;
@@ -8,7 +9,7 @@ header{
     padding: 10px;
     box-sizing: border-box;
     display: inline-block;
-
+    
 }
  header nav{
     float: right;
@@ -28,25 +29,25 @@ header nav ul li a {
     transition: all 0.5s;
 }
 header nav ul li  :hover{
-    color: rgb(27, 4, 131);
-
-}
-.banner img{
-    width: 100%;
-}
-
-main h1, footer p{
+    color: rgb(27, 4, 131);}
+    main h1, footer p{
     text-align: center;
 }
-main  p{
+
+main p {
+    text-align: center;
+}
+
+main h1 , footer p{
     text-align: center;
 }
 
 main {
     background-color: #fff;;
     width: 100%;
-    padding: 2px;;
+    padding: 2px;
     text-align: center;
+   
 }
 footer{
     background-color: #80c0f0;
@@ -54,7 +55,7 @@ footer{
     padding: 15px 0;
     clear:both;
 }
-iframe{
+.ifram_main{
     display:block; margin:0 auto; width:80%; height:500px;
 }
 main a{
@@ -71,5 +72,5 @@ main a{
 }
 
 main a :hover{
-    color: rgb(27, 4, 131);
+    background-color: rgb(27, 4, 131);
 }
