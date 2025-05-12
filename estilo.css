@@ -27,7 +27,7 @@ header nav ul li a {
     font-weight: 800;
     transition: all 0.5s;
 }
-header nav ul li  :hover{
+header nav ul li :hover{
     color: rgb(27, 4, 131);
 
 }
@@ -44,7 +44,7 @@ main  p{
 
 main {
     background-color: #fff;;
-    width: 100%;
+
     padding: 2px;;
     text-align: center;
 }
@@ -70,6 +70,35 @@ main a{
     transition: all 0.5s;
 }
 
-main a :hover{
-    color: rgb(27, 4, 131);
+main a:hover{
+    color: rgb(255,255,255);
+    background-color: rgb(27, 4, 131);
+}
+.menu{
+    display: none;
+}
+.mostrar{
+    display: block;
+}
+@media(max-width: 480px){
+    header nav ul{
+        display: block;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    header nav ul li{
+        width: 100%;
+    }
+    header nav{
+        display: none;
+    }
+    .menu{
+        display: block;
+        border: 1px ;
+        float: right;
+        margin-top: 15px;
+        border-radius: 5px;
+        color: #fff;
+    }
 }

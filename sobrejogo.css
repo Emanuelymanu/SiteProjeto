@@ -44,7 +44,7 @@ main h1 , footer p{
 
 main {
     background-color: #fff;;
-    width: 100%;
+
     padding: 2px;
     text-align: center;
    
@@ -54,10 +54,41 @@ footer{
     color: #fff;
     padding: 15px 0;
     clear:both;
+    margin-top: 25PXS;
 }
 .ifram_main{
     display:block; margin:0 auto; width:80%; height:500px;
 }
+
+.direita{
+    float: right;
+    max-width: 100%;
+    margin-left: 20px
+    
+}
+.txt{
+   text-align: justify;
+    font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;;
+    
+}
+.esquerda{
+    height: auto;
+    float: left;
+    padding-left: 20px;
+    padding-top:200px;
+    padding-bottom: 20px;
+    
+}
+.pdois{
+    display: flex;
+    padding-right: 250px;
+    padding-top: 200px;
+    padding-left: 250px
+
+}
+
 main a{
     text-decoration: none;
     border-radius: 40px;
@@ -71,6 +102,82 @@ main a{
     transition: all 0.5s;
 }
 
-main a :hover{
+
+
+main a:hover{
     background-color: rgb(27, 4, 131);
+}
+
+.banner-jogo{
+
+    max-width: 631px!important;
+    max-height: 346px!important;
+}
+
+.card{
+   display: flex;
+   justify-content: space-between; /* espaço entre os blocos internos */
+  flex-direction:row; /* organiza os elementos verticalmente */
+  padding: 20px;
+   background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 14px 8px rgba(0, 0, 0);
+  align-items: center;
+  margin: 0 auto; /* centraliza a card na tela */
+  margin-top: 15px;
+  margin-bottom: 15px;
+    gap: 20px; /* espaço entre os dois blocos */
+}
+.card > div {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  .card{
+   display: flex;
+  flex-direction: column; /* organiza os elementos verticalmente */
+  align-items: center;    /* centraliza horizontalmente */
+  justify-content: center;/* centraliza verticalmente (se necessário) */
+  text-align: center;     /* centraliza o texto */
+  padding: 20px;
+   background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 14px 8px rgba(0, 0, 0);
+
+  margin: 0 auto; /* centraliza a card na tela */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.banner-jogo{
+
+    width: 100%;        /* faz a imagem ocupar toda a largura do container */
+    height: auto;       /* mantém a proporção da imagem */
+    max-width: 100%;    /* garante que a imagem não ultrapasse o tamanho do container */
+    border-radius: 8px; /* opcional: arredonda os cantos para ficar mais elegante */
+}
+}
+
+@media (max-width: 900px) {
+  .card{
+   display: flex;
+  flex-direction: column; /* organiza os elementos verticalmente */
+  align-items: center;    /* centraliza horizontalmente */
+  justify-content: center;/* centraliza verticalmente (se necessário) */
+  text-align: center;     /* centraliza o texto */
+  padding: 20px;
+   background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 14px 8px rgba(0, 0, 0);
+  width: 300px; /* ajuste conforme preferir */
+  margin: 0 auto; /* centraliza a card na tela */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.banner-jogo{
+
+    width: 100%;        /* faz a imagem ocupar toda a largura do container */
+    height: auto;       /* mantém a proporção da imagem */
+    max-width: 100%;    /* garante que a imagem não ultrapasse o tamanho do container */
+    border-radius: 8px; /* opcional: arredonda os cantos para ficar mais elegante */
+}
 }

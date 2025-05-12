@@ -33,27 +33,75 @@ header nav ul li  :hover{
     main h1, footer p{
     text-align: center;}
 
-    .container {
-        position: relative;
-        width: 300px; /* mesmo tamanho da imagem */
-        margin: 100px auto; /* centraliza na página */
-      }
       
 .foto {
-        width: 100%;
+        width: 300px; 
         height: auto;
-        border-radius: 30px;
+        border-radius: 30px !important;
         display: block;
+        margin :auto
+        
       }
       
 .texto {
-        text-align: center;
+        text-align: justify;
         margin-top: 10px;
-        position: relative; /* não precisa ser absolute */
+    
+        max-width:300px;
       }
 footer{
     background-color: #80c0f0;
     color: #fff;
     padding: 15px 0;
+    margin-top: 25PX;
     clear:both;
+}
+.card{
+   display: flex;
+  flex-direction: column; /* organiza os elementos verticalmente */
+  align-items: center;    /* centraliza horizontalmente */
+  justify-content: center;/* centraliza verticalmente (se necessário) */
+  text-align: center;     /* centraliza o texto */
+  padding: 20px;
+   background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 14px 8px rgba(0, 0, 0);
+  width: 300px; /* ajuste conforme preferir */
+  margin: 0 auto; /* centraliza a card na tela */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+@media (max-width: 480px) {
+
+.card{
+   display: flex;
+  flex-direction: column; /* organiza os elementos verticalmente */
+  align-items: center;    /* centraliza horizontalmente */
+  justify-content: center;/* centraliza verticalmente (se necessário) */
+  text-align: center;     /* centraliza o texto */
+
+   background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 14px 8px rgba(0, 0, 0);
+
+  margin: 0 auto; /* centraliza a card na tela */
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.foto {
+       
+      width: 100%;        /* faz a imagem ocupar toda a largura do container */
+    height: auto;       /* mantém a proporção da imagem */
+    max-width: 100%;    /* garante que a imagem não ultrapasse o tamanho do container */
+    border-radius: 8px;
+        border-radius: 30px !important;
+      
+  
+        
+      }
+
+
 }
