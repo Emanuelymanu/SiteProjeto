@@ -58,16 +58,16 @@ footer{
 }
 .card{
    display: flex;
-  flex-direction: column; /* organiza os elementos verticalmente */
-  align-items: center;    /* centraliza horizontalmente */
-  justify-content: center;/* centraliza verticalmente (se necessário) */
-  text-align: center;     /* centraliza o texto */
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
+  text-align: center;     
   padding: 20px;
    background-color: #f9f9f9;
   border-radius: 12px;
   box-shadow: 0 14px 8px rgba(0, 0, 0);
-  width: 300px; /* ajuste conforme preferir */
-  margin: 0 auto; /* centraliza a card na tela */
+  width: 300px; 
+  margin: 0 auto; 
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -77,27 +77,27 @@ footer{
 
 .card{
    display: flex;
-  flex-direction: column; /* organiza os elementos verticalmente */
-  align-items: center;    /* centraliza horizontalmente */
-  justify-content: center;/* centraliza verticalmente (se necessário) */
-  text-align: center;     /* centraliza o texto */
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center;
+  text-align: center;    
 
    background-color: #f9f9f9;
   border-radius: 12px;
   box-shadow: 0 14px 8px rgba(0, 0, 0);
 
-  margin: 0 auto; /* centraliza a card na tela */
+  margin: 0 auto; 
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
 .foto {
        
-      width: 100%;        /* faz a imagem ocupar toda a largura do container */
-    height: auto;       /* mantém a proporção da imagem */
-    max-width: 100%;    /* garante que a imagem não ultrapasse o tamanho do container */
+    width: 100%;        
+    height: auto;       
+    max-width: 100%;    
     border-radius: 8px;
-        border-radius: 30px !important;
+     border-radius: 30px !important;
       
   
         
